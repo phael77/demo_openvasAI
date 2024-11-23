@@ -4,7 +4,7 @@ import openai
 import os
 
 app = Flask(__name__)
-openai.api_key = os.environ.get("Ssk-proj-MQOyCnziyWNrg6QzXwrR8ORt8TdjLm7Novd7AtnLTarSbt3EAOs2QjCUtDkmWSmHZiY4iET-tOT3BlbkFJBPzGaHOVEGZyKD5RLkXC-RUIt4zmzuVf6IzV71bsfPoeTcKNctpRO31x2k2DVbeMY92epu0Xg")
+openai.api_key = os.environ.get("API_OPENAI")
 
 # Rota principal para exibir a página de upload
 @app.route('/')
